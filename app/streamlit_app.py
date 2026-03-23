@@ -394,7 +394,7 @@ def main():
         display_df["Avg Cost ($)"] = display_df["Avg Cost ($)"].round(0).astype(int)
         display_df["Popularity"] = (display_df["Popularity"] * 100).round(1).astype(str) + "%"
 
-        st.dataframe(display_df, use_container_width=True, hide_index=True)
+        st.dataframe(display_df, hide_index=True)
 
 
 if __name__ == "__main__":

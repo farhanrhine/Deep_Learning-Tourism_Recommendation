@@ -166,7 +166,11 @@ def main():
         "run-app": cmd_run_app,
     }
 
-    commands[args.command](args)
+    try:
+        commands[args.command](args)
+    except KeyboardInterrupt:
+        print("\n⏹️  Server stopped cleanly by user. See you next time!")
+        sys.exit(0)
 
 
 if __name__ == "__main__":
