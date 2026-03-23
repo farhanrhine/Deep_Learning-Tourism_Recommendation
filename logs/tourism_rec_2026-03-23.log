@@ -1,0 +1,186 @@
+2026-03-23 10:14:46 │ INFO     │ data.generate_dataset          │ generate_all         │ ============================================================
+2026-03-23 10:14:46 │ INFO     │ data.generate_dataset          │ generate_all         │ Starting dataset generation...
+2026-03-23 10:14:46 │ INFO     │ data.generate_dataset          │ generate_all         │ ============================================================
+2026-03-23 10:14:46 │ INFO     │ data.generate_dataset          │ generate_users       │ Generating 500 user profiles...
+2026-03-23 10:14:46 │ INFO     │ data.generate_dataset          │ generate_users       │   ✓ Generated 500 users
+2026-03-23 10:14:46 │ INFO     │ data.generate_dataset          │ generate_destinations │ Generating 200 destination profiles...
+2026-03-23 10:14:46 │ INFO     │ data.generate_dataset          │ generate_destinations │   ✓ Generated 200 destinations
+2026-03-23 10:14:46 │ INFO     │ data.generate_dataset          │ generate_interactions │ Generating 10000 interactions with preference-biased ratings...
+2026-03-23 10:14:50 │ INFO     │ data.generate_dataset          │ generate_interactions │   ✓ Generated 10000 interactions
+2026-03-23 10:14:50 │ INFO     │ data.generate_dataset          │ generate_interactions │   ✓ Rating distribution: mean=3.27, std=1.00
+2026-03-23 10:14:50 │ INFO     │ data.generate_dataset          │ generate_all         │ ============================================================
+2026-03-23 10:14:50 │ INFO     │ data.generate_dataset          │ generate_all         │ Dataset saved to C:\Tourism-Recommendation\data
+2026-03-23 10:14:50 │ INFO     │ data.generate_dataset          │ generate_all         │   • users.csv        : 500 rows
+2026-03-23 10:14:50 │ INFO     │ data.generate_dataset          │ generate_all         │   • destinations.csv : 200 rows
+2026-03-23 10:14:50 │ INFO     │ data.generate_dataset          │ generate_all         │   • interactions.csv : 10000 rows
+2026-03-23 10:14:50 │ INFO     │ data.generate_dataset          │ generate_all         │ ============================================================
+2026-03-23 10:15:40 │ INFO     │ utils.preprocess               │ load_data            │ Loading datasets...
+2026-03-23 10:15:40 │ INFO     │ utils.preprocess               │ load_data            │   ✓ Loaded 500 users, 200 destinations, 10000 interactions
+2026-03-23 10:15:40 │ INFO     │ utils.preprocess               │ encode_features      │ Encoding and normalizing features...
+2026-03-23 10:15:40 │ INFO     │ utils.preprocess               │ encode_features      │   ✓ User features shape: (500, 4)
+2026-03-23 10:15:40 │ INFO     │ utils.preprocess               │ encode_features      │   ✓ Destination features shape: (200, 5)
+2026-03-23 10:15:40 │ INFO     │ utils.preprocess               │ create_splits        │ Creating train/val/test splits...
+2026-03-23 10:15:40 │ INFO     │ utils.preprocess               │ create_splits        │   ✓ train: 7000 samples
+2026-03-23 10:15:40 │ INFO     │ utils.preprocess               │ create_splits        │   ✓ val: 1500 samples
+2026-03-23 10:15:40 │ INFO     │ utils.preprocess               │ create_splits        │   ✓ test: 1500 samples
+2026-03-23 10:15:40 │ INFO     │ utils.preprocess               │ get_dataloaders      │ Creating DataLoaders (batch_size=256)...
+2026-03-23 10:15:40 │ INFO     │ utils.preprocess               │ get_dataloaders      │   ✓ Train batches: 28
+2026-03-23 10:15:40 │ INFO     │ utils.preprocess               │ get_dataloaders      │   ✓ Val batches: 6
+2026-03-23 10:15:40 │ INFO     │ utils.preprocess               │ get_dataloaders      │   ✓ Test batches: 6
+2026-03-23 10:15:40 │ INFO     │ __main__                       │ cmd_train            │ 
+============================================================
+2026-03-23 10:15:40 │ INFO     │ __main__                       │ cmd_train            │ PHASE 1: Training NCF Model
+2026-03-23 10:15:40 │ INFO     │ __main__                       │ cmd_train            │ ============================================================
+2026-03-23 10:16:47 │ INFO     │ utils.preprocess               │ load_data            │ Loading datasets...
+2026-03-23 10:16:47 │ INFO     │ utils.preprocess               │ load_data            │   ✓ Loaded 500 users, 200 destinations, 10000 interactions
+2026-03-23 10:16:47 │ INFO     │ utils.preprocess               │ encode_features      │ Encoding and normalizing features...
+2026-03-23 10:16:47 │ INFO     │ utils.preprocess               │ encode_features      │   ✓ User features shape: (500, 4)
+2026-03-23 10:16:47 │ INFO     │ utils.preprocess               │ encode_features      │   ✓ Destination features shape: (200, 5)
+2026-03-23 10:16:47 │ INFO     │ utils.preprocess               │ create_splits        │ Creating train/val/test splits...
+2026-03-23 10:16:47 │ INFO     │ utils.preprocess               │ create_splits        │   ✓ train: 7000 samples
+2026-03-23 10:16:47 │ INFO     │ utils.preprocess               │ create_splits        │   ✓ val: 1500 samples
+2026-03-23 10:16:47 │ INFO     │ utils.preprocess               │ create_splits        │   ✓ test: 1500 samples
+2026-03-23 10:16:47 │ INFO     │ utils.preprocess               │ get_dataloaders      │ Creating DataLoaders (batch_size=256)...
+2026-03-23 10:16:47 │ INFO     │ utils.preprocess               │ get_dataloaders      │   ✓ Train batches: 28
+2026-03-23 10:16:47 │ INFO     │ utils.preprocess               │ get_dataloaders      │   ✓ Val batches: 6
+2026-03-23 10:16:47 │ INFO     │ utils.preprocess               │ get_dataloaders      │   ✓ Test batches: 6
+2026-03-23 10:16:47 │ INFO     │ __main__                       │ cmd_train            │ 
+============================================================
+2026-03-23 10:16:47 │ INFO     │ __main__                       │ cmd_train            │ PHASE 1: Training NCF Model
+2026-03-23 10:16:47 │ INFO     │ __main__                       │ cmd_train            │ ============================================================
+2026-03-23 10:16:48 │ INFO     │ training.train                 │ train                │ ============================================================
+2026-03-23 10:16:48 │ INFO     │ training.train                 │ train                │ Training NCF model
+2026-03-23 10:16:48 │ INFO     │ training.train                 │ train                │   Device: cpu
+2026-03-23 10:16:48 │ INFO     │ training.train                 │ train                │   Epochs: 10 (patience=7)
+2026-03-23 10:16:48 │ INFO     │ training.train                 │ train                │   Parameters: 68,129
+2026-03-23 10:16:48 │ INFO     │ training.train                 │ train                │ ============================================================
+2026-03-23 10:16:49 │ INFO     │ training.train                 │ train                │   Epoch   1/10 │ Train Loss: 1.0758 │ Val Loss: 1.0634 │ LR: 1.00e-03
+2026-03-23 10:16:49 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=1.0634)
+2026-03-23 10:16:49 │ INFO     │ training.train                 │ train                │   Epoch   2/10 │ Train Loss: 0.9843 │ Val Loss: 1.0537 │ LR: 1.00e-03
+2026-03-23 10:16:49 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=1.0537)
+2026-03-23 10:16:49 │ INFO     │ training.train                 │ train                │   Epoch   3/10 │ Train Loss: 0.9519 │ Val Loss: 0.9966 │ LR: 1.00e-03
+2026-03-23 10:16:49 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.9966)
+2026-03-23 10:16:49 │ INFO     │ training.train                 │ train                │   Epoch   4/10 │ Train Loss: 0.8907 │ Val Loss: 0.9640 │ LR: 1.00e-03
+2026-03-23 10:16:49 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.9640)
+2026-03-23 10:16:50 │ INFO     │ training.train                 │ train                │   Epoch   5/10 │ Train Loss: 0.8523 │ Val Loss: 0.9330 │ LR: 1.00e-03
+2026-03-23 10:16:50 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.9330)
+2026-03-23 10:16:50 │ INFO     │ training.train                 │ train                │   Epoch   6/10 │ Train Loss: 0.7787 │ Val Loss: 0.8944 │ LR: 1.00e-03
+2026-03-23 10:16:50 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.8944)
+2026-03-23 10:16:50 │ INFO     │ training.train                 │ train                │   Epoch   7/10 │ Train Loss: 0.6956 │ Val Loss: 0.8109 │ LR: 1.00e-03
+2026-03-23 10:16:50 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.8109)
+2026-03-23 10:16:50 │ INFO     │ training.train                 │ train                │   Epoch   8/10 │ Train Loss: 0.5735 │ Val Loss: 0.6775 │ LR: 1.00e-03
+2026-03-23 10:16:50 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.6775)
+2026-03-23 10:16:51 │ INFO     │ training.train                 │ train                │   Epoch   9/10 │ Train Loss: 0.4330 │ Val Loss: 0.5346 │ LR: 1.00e-03
+2026-03-23 10:16:51 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.5346)
+2026-03-23 10:16:51 │ INFO     │ training.train                 │ train                │   Epoch  10/10 │ Train Loss: 0.3074 │ Val Loss: 0.4266 │ LR: 1.00e-03
+2026-03-23 10:16:51 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.4266)
+2026-03-23 10:16:51 │ INFO     │ training.train                 │ train                │ ============================================================
+2026-03-23 10:16:51 │ INFO     │ training.train                 │ train                │ Training complete in 3.0s
+2026-03-23 10:16:51 │ INFO     │ training.train                 │ train                │   Best val loss: 0.4266
+2026-03-23 10:16:51 │ INFO     │ training.train                 │ train                │   Checkpoint: C:\Tourism-Recommendation\saved_models\ncf_best.pt
+2026-03-23 10:16:51 │ INFO     │ training.train                 │ train                │ ============================================================
+2026-03-23 10:16:51 │ INFO     │ __main__                       │ cmd_train            │ 
+============================================================
+2026-03-23 10:16:51 │ INFO     │ __main__                       │ cmd_train            │ PHASE 2: Training Content Model
+2026-03-23 10:16:51 │ INFO     │ __main__                       │ cmd_train            │ ============================================================
+2026-03-23 10:16:51 │ INFO     │ training.train                 │ train                │ ============================================================
+2026-03-23 10:16:51 │ INFO     │ training.train                 │ train                │ Training CONTENT model
+2026-03-23 10:16:51 │ INFO     │ training.train                 │ train                │   Device: cpu
+2026-03-23 10:16:51 │ INFO     │ training.train                 │ train                │   Epochs: 10 (patience=7)
+2026-03-23 10:16:51 │ INFO     │ training.train                 │ train                │   Parameters: 7,233
+2026-03-23 10:16:51 │ INFO     │ training.train                 │ train                │ ============================================================
+2026-03-23 10:16:51 │ INFO     │ training.train                 │ train                │   Epoch   1/10 │ Train Loss: 1.1410 │ Val Loss: 1.0542 │ LR: 1.00e-03
+2026-03-23 10:16:51 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=1.0542)
+2026-03-23 10:16:52 │ INFO     │ training.train                 │ train                │   Epoch   2/10 │ Train Loss: 0.9997 │ Val Loss: 1.0353 │ LR: 1.00e-03
+2026-03-23 10:16:52 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=1.0353)
+2026-03-23 10:16:53 │ INFO     │ training.train                 │ train                │   Epoch   3/10 │ Train Loss: 0.9828 │ Val Loss: 1.0142 │ LR: 1.00e-03
+2026-03-23 10:16:53 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=1.0142)
+2026-03-23 10:16:53 │ INFO     │ training.train                 │ train                │   Epoch   4/10 │ Train Loss: 0.9612 │ Val Loss: 0.9831 │ LR: 1.00e-03
+2026-03-23 10:16:53 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.9831)
+2026-03-23 10:16:54 │ INFO     │ training.train                 │ train                │   Epoch   5/10 │ Train Loss: 0.9432 │ Val Loss: 0.9660 │ LR: 1.00e-03
+2026-03-23 10:16:54 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.9660)
+2026-03-23 10:16:54 │ INFO     │ training.train                 │ train                │   Epoch   6/10 │ Train Loss: 0.9214 │ Val Loss: 0.9318 │ LR: 1.00e-03
+2026-03-23 10:16:54 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.9318)
+2026-03-23 10:16:55 │ INFO     │ training.train                 │ train                │   Epoch   7/10 │ Train Loss: 0.8986 │ Val Loss: 0.9011 │ LR: 1.00e-03
+2026-03-23 10:16:55 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.9011)
+2026-03-23 10:16:55 │ INFO     │ training.train                 │ train                │   Epoch   8/10 │ Train Loss: 0.8883 │ Val Loss: 0.8697 │ LR: 1.00e-03
+2026-03-23 10:16:55 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.8697)
+2026-03-23 10:16:56 │ INFO     │ training.train                 │ train                │   Epoch   9/10 │ Train Loss: 0.8611 │ Val Loss: 0.8465 │ LR: 1.00e-03
+2026-03-23 10:16:56 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.8465)
+2026-03-23 10:16:57 │ INFO     │ training.train                 │ train                │   Epoch  10/10 │ Train Loss: 0.8341 │ Val Loss: 0.8099 │ LR: 1.00e-03
+2026-03-23 10:16:57 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.8099)
+2026-03-23 10:16:57 │ INFO     │ training.train                 │ train                │ ============================================================
+2026-03-23 10:16:57 │ INFO     │ training.train                 │ train                │ Training complete in 5.6s
+2026-03-23 10:16:57 │ INFO     │ training.train                 │ train                │   Best val loss: 0.8099
+2026-03-23 10:16:57 │ INFO     │ training.train                 │ train                │   Checkpoint: C:\Tourism-Recommendation\saved_models\content_best.pt
+2026-03-23 10:16:57 │ INFO     │ training.train                 │ train                │ ============================================================
+2026-03-23 10:16:57 │ INFO     │ __main__                       │ cmd_train            │ 
+============================================================
+2026-03-23 10:16:57 │ INFO     │ __main__                       │ cmd_train            │ PHASE 3: Training Hybrid Model
+2026-03-23 10:16:57 │ INFO     │ __main__                       │ cmd_train            │ ============================================================
+2026-03-23 10:16:57 │ INFO     │ training.train                 │ train                │ ============================================================
+2026-03-23 10:16:57 │ INFO     │ training.train                 │ train                │ Training HYBRID model
+2026-03-23 10:16:57 │ INFO     │ training.train                 │ train                │   Device: cpu
+2026-03-23 10:16:57 │ INFO     │ training.train                 │ train                │   Epochs: 10 (patience=7)
+2026-03-23 10:16:57 │ INFO     │ training.train                 │ train                │   Parameters: 75,813
+2026-03-23 10:16:57 │ INFO     │ training.train                 │ train                │ ============================================================
+2026-03-23 10:16:58 │ INFO     │ training.train                 │ train                │   Epoch   1/10 │ Train Loss: 1.1756 │ Val Loss: 1.0489 │ LR: 1.00e-03
+2026-03-23 10:16:58 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=1.0489)
+2026-03-23 10:16:59 │ INFO     │ training.train                 │ train                │   Epoch   2/10 │ Train Loss: 0.9990 │ Val Loss: 1.0406 │ LR: 1.00e-03
+2026-03-23 10:16:59 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=1.0406)
+2026-03-23 10:17:01 │ INFO     │ training.train                 │ train                │   Epoch   3/10 │ Train Loss: 0.9648 │ Val Loss: 0.9865 │ LR: 1.00e-03
+2026-03-23 10:17:01 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.9865)
+2026-03-23 10:17:02 │ INFO     │ training.train                 │ train                │   Epoch   4/10 │ Train Loss: 0.8781 │ Val Loss: 0.9206 │ LR: 1.00e-03
+2026-03-23 10:17:02 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.9206)
+2026-03-23 10:17:03 │ INFO     │ training.train                 │ train                │   Epoch   5/10 │ Train Loss: 0.8168 │ Val Loss: 0.8724 │ LR: 1.00e-03
+2026-03-23 10:17:03 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.8724)
+2026-03-23 10:17:04 │ INFO     │ training.train                 │ train                │   Epoch   6/10 │ Train Loss: 0.7698 │ Val Loss: 0.8619 │ LR: 1.00e-03
+2026-03-23 10:17:04 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.8619)
+2026-03-23 10:17:05 │ INFO     │ training.train                 │ train                │   Epoch   7/10 │ Train Loss: 0.7150 │ Val Loss: 0.8225 │ LR: 1.00e-03
+2026-03-23 10:17:05 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.8225)
+2026-03-23 10:17:06 │ INFO     │ training.train                 │ train                │   Epoch   8/10 │ Train Loss: 0.6752 │ Val Loss: 0.7715 │ LR: 1.00e-03
+2026-03-23 10:17:06 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.7715)
+2026-03-23 10:17:07 │ INFO     │ training.train                 │ train                │   Epoch   9/10 │ Train Loss: 0.6390 │ Val Loss: 0.7522 │ LR: 1.00e-03
+2026-03-23 10:17:07 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.7522)
+2026-03-23 10:17:08 │ INFO     │ training.train                 │ train                │   Epoch  10/10 │ Train Loss: 0.6186 │ Val Loss: 0.7258 │ LR: 1.00e-03
+2026-03-23 10:17:08 │ INFO     │ training.train                 │ train                │   ✓ New best model saved (val_loss=0.7258)
+2026-03-23 10:17:08 │ INFO     │ training.train                 │ train                │ ============================================================
+2026-03-23 10:17:08 │ INFO     │ training.train                 │ train                │ Training complete in 11.6s
+2026-03-23 10:17:08 │ INFO     │ training.train                 │ train                │   Best val loss: 0.7258
+2026-03-23 10:17:08 │ INFO     │ training.train                 │ train                │   Checkpoint: C:\Tourism-Recommendation\saved_models\hybrid_best.pt
+2026-03-23 10:17:08 │ INFO     │ training.train                 │ train                │ ============================================================
+2026-03-23 10:17:24 │ INFO     │ training.evaluate              │ plot_training_curves │   ✓ Training curves saved to C:\Tourism-Recommendation\plots\training_curves.png
+2026-03-23 10:17:24 │ INFO     │ __main__                       │ cmd_train            │ 
+✅ All models trained successfully!
+2026-03-23 10:17:58 │ INFO     │ utils.preprocess               │ load_data            │ Loading datasets...
+2026-03-23 10:17:58 │ INFO     │ utils.preprocess               │ load_data            │   ✓ Loaded 500 users, 200 destinations, 10000 interactions
+2026-03-23 10:17:58 │ INFO     │ utils.preprocess               │ encode_features      │ Encoding and normalizing features...
+2026-03-23 10:17:58 │ INFO     │ utils.preprocess               │ encode_features      │   ✓ User features shape: (500, 4)
+2026-03-23 10:17:58 │ INFO     │ utils.preprocess               │ encode_features      │   ✓ Destination features shape: (200, 5)
+2026-03-23 10:17:58 │ INFO     │ utils.preprocess               │ create_splits        │ Creating train/val/test splits...
+2026-03-23 10:17:58 │ INFO     │ utils.preprocess               │ create_splits        │   ✓ train: 7000 samples
+2026-03-23 10:17:58 │ INFO     │ utils.preprocess               │ create_splits        │   ✓ val: 1500 samples
+2026-03-23 10:17:58 │ INFO     │ utils.preprocess               │ create_splits        │   ✓ test: 1500 samples
+2026-03-23 10:17:58 │ INFO     │ utils.preprocess               │ get_dataloaders      │ Creating DataLoaders (batch_size=256)...
+2026-03-23 10:17:58 │ INFO     │ utils.preprocess               │ get_dataloaders      │   ✓ Train batches: 28
+2026-03-23 10:17:58 │ INFO     │ utils.preprocess               │ get_dataloaders      │   ✓ Val batches: 6
+2026-03-23 10:17:58 │ INFO     │ utils.preprocess               │ get_dataloaders      │   ✓ Test batches: 6
+2026-03-23 10:17:58 │ INFO     │ training.evaluate              │ evaluate_model       │ Evaluating NCF...
+2026-03-23 10:17:58 │ INFO     │ training.evaluate              │ evaluate_model       │   RMSE: 0.6435 │ MAE: 0.5223
+2026-03-23 10:17:58 │ INFO     │ training.evaluate              │ evaluate_model       │   @5 → P=1.0000  R=0.0075  NDCG=1.0000  HR=1.0000
+2026-03-23 10:17:58 │ INFO     │ training.evaluate              │ evaluate_model       │   @10 → P=1.0000  R=0.0151  NDCG=1.0000  HR=1.0000
+2026-03-23 10:17:58 │ INFO     │ training.evaluate              │ evaluate_model       │   @20 → P=1.0000  R=0.0302  NDCG=1.0000  HR=1.0000
+2026-03-23 10:17:58 │ INFO     │ training.evaluate              │ evaluate_model       │ Evaluating CONTENT...
+2026-03-23 10:17:59 │ INFO     │ training.evaluate              │ evaluate_model       │   RMSE: 0.8688 │ MAE: 0.7268
+2026-03-23 10:17:59 │ INFO     │ training.evaluate              │ evaluate_model       │   @5 → P=1.0000  R=0.0075  NDCG=1.0000  HR=1.0000
+2026-03-23 10:17:59 │ INFO     │ training.evaluate              │ evaluate_model       │   @10 → P=1.0000  R=0.0151  NDCG=1.0000  HR=1.0000
+2026-03-23 10:17:59 │ INFO     │ training.evaluate              │ evaluate_model       │   @20 → P=1.0000  R=0.0302  NDCG=1.0000  HR=1.0000
+2026-03-23 10:17:59 │ INFO     │ training.evaluate              │ evaluate_model       │ Evaluating HYBRID...
+2026-03-23 10:17:59 │ INFO     │ training.evaluate              │ evaluate_model       │   RMSE: 0.8259 │ MAE: 0.6659
+2026-03-23 10:17:59 │ INFO     │ training.evaluate              │ evaluate_model       │   @5 → P=1.0000  R=0.0075  NDCG=1.0000  HR=1.0000
+2026-03-23 10:17:59 │ INFO     │ training.evaluate              │ evaluate_model       │   @10 → P=0.9000  R=0.0136  NDCG=0.9266  HR=1.0000
+2026-03-23 10:17:59 │ INFO     │ training.evaluate              │ evaluate_model       │   @20 → P=0.9500  R=0.0287  NDCG=0.9527  HR=1.0000
+2026-03-23 10:17:59 │ INFO     │ training.evaluate              │ plot_model_comparison │   ✓ Model comparison saved to C:\Tourism-Recommendation\plots\model_comparison.png
+2026-03-23 10:17:59 │ INFO     │ training.evaluate              │ plot_prediction_distribution │   ✓ Prediction distributions saved to C:\Tourism-Recommendation\plots\prediction_dist.png
+2026-03-23 10:17:59 │ INFO     │ __main__                       │ cmd_evaluate         │ 
+✅ Evaluation complete! Plots saved to plots/

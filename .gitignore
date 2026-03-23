@@ -1,0 +1,41 @@
+# ─── Python ───
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+wheels/
+*.whl
+
+# ─── Virtual Environment ───
+.venv/
+venv/
+env/
+.python-version
+
+# ─── IDE / Editor ───
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ─── Project: These ARE committed so reviewers can see results immediately ───
+# data/*.csv         ← committed (synthetic dataset)
+# saved_models/      ← committed (trained model checkpoints)
+# plots/             ← committed (evaluation charts)
+
+# ─── Project: Logs (not needed in repo) ───
+# logs/
+
+# ─── uv lock file (optional, uncomment if you DO want to commit it) ───
+# uv.lock
+
+docs/
+

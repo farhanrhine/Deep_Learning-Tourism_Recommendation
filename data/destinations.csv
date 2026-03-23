@@ -1,0 +1,201 @@
+dest_id,name,country,category,avg_cost,popularity_score,climate,best_season
+0,Udaipur,Italy,city,3057.35,0.624,tropical,autumn
+1,Amsterdam,Iceland,city,646.63,0.319,mediterranean,autumn
+2,Yellowstone,Thailand,mountain,3172.0,0.535,arid,spring
+3,Black Forest,USA,mountain,1089.6,0.118,cold,winter
+4,Tulum,Italy,nature,2393.25,0.301,arid,autumn
+5,Normandy,France,beach,3137.57,0.484,temperate,autumn
+6,Whitehorse,Portugal,island,4660.34,0.641,cold,summer
+7,Istanbul,Spain,historical,3480.11,0.467,tropical,spring
+8,Hobbiton,Brazil,nature,500.51,0.971,cold,winter
+9,Nara,Morocco,historical,3547.51,0.514,mediterranean,winter
+10,Yosemite,Switzerland,beach,3966.98,0.66,cold,spring
+11,Hanoi,Peru,island,3921.48,0.298,arid,summer
+12,San Marino,Iceland,island,4933.54,0.904,tropical,spring
+13,Andalusia,New Zealand,historical,1655.08,0.842,tropical,autumn
+14,Pokhara,France,city,4508.54,0.232,arid,spring
+15,Vienna,India,island,2446.49,0.705,tropical,winter
+16,Barbados,Vietnam,nature,1989.43,0.116,temperate,autumn
+17,Maldives Reef,India,desert,2907.09,0.349,tropical,summer
+18,Madeira,Vietnam,nature,3941.51,0.42,cold,summer
+19,Angkor Wat,Peru,desert,3742.07,0.212,mediterranean,summer
+20,Paris,Iceland,historical,2850.99,0.392,arid,winter
+21,Barcelona,Spain,desert,4992.15,0.238,temperate,autumn
+22,Melbourne,Italy,beach,1266.66,0.709,cold,winter
+23,Alaska,Morocco,city,2253.48,0.199,temperate,spring
+24,Chiang Mai,Peru,nature,3408.67,0.117,tropical,summer
+25,Tasmania,New Zealand,city,4650.24,0.203,arid,winter
+26,Provence,Greece,nature,4302.57,0.188,temperate,winter
+27,Munich,USA,nature,4429.34,0.695,arid,winter
+28,Grand Canyon,Croatia,mountain,4398.03,0.436,mediterranean,summer
+29,Dubrovnik,Spain,city,1990.52,0.134,mediterranean,summer
+30,Cancun,New Zealand,beach,2703.49,0.292,tropical,winter
+31,Banff,Peru,island,1487.49,0.141,cold,summer
+32,Seville,New Zealand,historical,1764.36,0.909,temperate,spring
+33,Azores,USA,island,2249.85,0.594,temperate,autumn
+34,South Georgia,USA,mountain,1352.94,0.282,cold,winter
+35,Rome,France,desert,2665.09,0.72,temperate,winter
+36,Kerala Backwaters,Vietnam,beach,1702.47,0.537,cold,spring
+37,Champagne,Japan,beach,1292.36,0.865,tropical,winter
+38,Samoa,USA,desert,4784.87,0.165,temperate,autumn
+39,Antarctica,Switzerland,historical,1192.81,0.479,temperate,autumn
+40,Zhangjiajie,Mexico,desert,3940.83,0.402,temperate,spring
+41,Lebanon,Spain,city,4193.12,0.987,tropical,summer
+42,Dakar,France,desert,4360.18,0.394,arid,spring
+43,Medellín,Mexico,beach,2805.11,0.959,mediterranean,autumn
+44,Petra Caves,Turkey,mountain,4802.06,0.466,mediterranean,autumn
+45,Canadian Rockies,Morocco,historical,4171.4,0.8,cold,spring
+46,Trinidad,Brazil,historical,2635.61,0.795,arid,autumn
+47,Zurich,Greece,island,4885.19,0.392,arid,winter
+48,Jaipur,India,beach,4161.77,0.532,cold,autumn
+49,Norwegian Fjords,Vietnam,island,3095.06,0.747,arid,spring
+50,Kyoto,India,desert,4525.64,0.948,temperate,spring
+51,Tongariro,USA,island,2587.89,0.918,temperate,winter
+52,Dubrovnik,Vietnam,nature,3350.78,0.154,cold,winter
+53,Golden Circle,Thailand,historical,2353.93,0.389,temperate,autumn
+54,Nairobi,Vietnam,island,2284.36,0.752,temperate,autumn
+55,Santorini,Italy,mountain,4271.32,0.15,arid,summer
+56,Marrakech,Mexico,beach,1593.88,0.319,temperate,summer
+57,Tahiti,India,beach,3865.95,0.548,arid,spring
+58,Dolomites,Peru,desert,3680.11,0.686,temperate,autumn
+59,Lijiang,Italy,historical,3368.51,0.109,mediterranean,spring
+60,Easter Island,Italy,city,3159.68,0.559,temperate,spring
+61,Lofoten Islands,Japan,beach,4245.83,0.605,arid,summer
+62,Blue Lagoon,Japan,desert,4202.18,0.664,cold,spring
+63,Singapore,India,island,3730.04,0.275,arid,summer
+64,Canary Islands,New Zealand,desert,4861.88,0.287,cold,winter
+65,Bahamas,Turkey,desert,4059.02,0.165,cold,summer
+66,Yerevan,Spain,city,4837.28,0.818,temperate,summer
+67,Darjeeling,Portugal,desert,1059.23,0.809,arid,autumn
+68,Ha Long Bay,Morocco,city,3423.85,0.463,temperate,autumn
+69,Bali,Italy,desert,3622.65,0.975,temperate,summer
+70,Great Barrier Reef,Peru,city,924.95,0.39,mediterranean,summer
+71,Andaman Islands,Portugal,nature,4264.2,0.915,arid,summer
+72,Jamaica,Morocco,city,4944.01,0.995,tropical,spring
+73,Cape Town,Australia,nature,3727.2,0.669,cold,autumn
+74,Lake Como,Turkey,island,3853.8,0.938,tropical,autumn
+75,Sicily,Japan,island,4827.82,0.637,tropical,spring
+76,Curaçao,Brazil,island,717.15,0.206,mediterranean,spring
+77,Dawson City,India,beach,3435.11,0.771,mediterranean,spring
+78,Tenerife,Greece,historical,4211.42,0.985,mediterranean,spring
+79,Ohrid,Turkey,historical,3977.89,0.807,temperate,spring
+80,Great Wall Trek,India,city,600.72,0.764,tropical,spring
+81,Borneo,Greece,mountain,2009.1,0.302,tropical,summer
+82,Yogyakarta,Spain,nature,2899.87,0.943,temperate,spring
+83,Hawaii,Turkey,beach,4939.72,0.79,temperate,winter
+84,Dead Sea,India,historical,3668.88,0.842,arid,spring
+85,St. Lucia,Thailand,nature,808.42,0.175,cold,spring
+86,Split,Greece,desert,3233.38,0.166,cold,winter
+87,Torres del Paine,Brazil,island,3294.87,0.988,cold,spring
+88,Madagascar,Thailand,beach,2955.75,0.426,arid,spring
+89,Bruges,Turkey,mountain,3918.26,0.732,mediterranean,winter
+90,Siem Reap,New Zealand,desert,2451.43,0.32,mediterranean,autumn
+91,Victoria Falls,Portugal,island,985.67,0.61,arid,spring
+92,Ring Road,Turkey,desert,2229.72,0.373,mediterranean,autumn
+93,Lisbon,India,mountain,3630.77,0.848,temperate,winter
+94,Tuscany,Brazil,nature,4646.34,0.413,tropical,winter
+95,Jerusalem,Iceland,historical,2858.67,0.713,cold,spring
+96,Samarkand,India,historical,3888.49,0.548,mediterranean,summer
+97,Sri Lanka,Turkey,desert,1840.68,0.277,arid,spring
+98,Tbilisi,Greece,city,2324.62,0.225,arid,summer
+99,Baku,Peru,mountain,3724.21,0.994,tropical,autumn
+100,Falkland Islands,Iceland,mountain,4826.96,0.739,cold,summer
+101,Dubai,Iceland,mountain,710.53,0.466,cold,spring
+102,Oman,New Zealand,historical,4019.45,0.12,tropical,spring
+103,Seoul,Brazil,nature,4446.71,0.288,mediterranean,summer
+104,Jordan,USA,desert,2374.67,0.7,arid,autumn
+105,Patagonia,Australia,island,611.65,0.445,cold,summer
+106,Bangkok,New Zealand,mountain,4368.84,0.228,tropical,spring
+107,Greenland,Greece,mountain,2168.62,0.339,arid,summer
+108,Luang Prabang,Switzerland,historical,1478.82,0.322,cold,winter
+109,Georgia,Australia,island,2304.9,0.413,temperate,autumn
+110,Bordeaux,Italy,mountain,2830.72,0.822,mediterranean,spring
+111,Goa,Peru,mountain,4931.78,0.105,tropical,autumn
+112,Queenstown,Italy,beach,2469.9,0.361,tropical,summer
+113,New York,Peru,historical,1019.64,0.885,temperate,spring
+114,Amalfi Coast,Australia,city,2322.46,0.815,cold,winter
+115,Cartagena,Iceland,historical,3829.82,0.115,arid,spring
+116,Serengeti,USA,city,4445.56,0.637,arid,winter
+117,Rishikesh,France,desert,4388.71,0.798,cold,winter
+118,Svalbard,Thailand,city,2253.56,0.177,temperate,summer
+119,Tromsø,Vietnam,city,983.38,0.871,tropical,winter
+120,Hiroshima,India,historical,4871.44,0.708,temperate,autumn
+121,Scottish Highlands,Spain,island,1438.69,0.764,cold,spring
+122,Mostar,USA,mountain,3480.77,0.892,arid,spring
+123,Cairns,Australia,nature,3032.25,0.501,tropical,summer
+124,Bologna,Italy,beach,4854.86,0.649,temperate,winter
+125,Batumi,New Zealand,island,2476.34,0.595,temperate,summer
+126,Mallorca,Iceland,beach,1175.2,0.179,arid,spring
+127,Osaka,France,city,1269.42,0.423,mediterranean,autumn
+128,Tonga,Australia,desert,1060.81,0.106,arid,autumn
+129,Milford Sound,Australia,city,525.8,0.623,temperate,winter
+130,Edinburgh,India,city,2235.52,0.407,tropical,summer
+131,Liechtenstein,Greece,nature,3048.09,0.226,mediterranean,summer
+132,Buenos Aires,Greece,city,4455.21,0.795,mediterranean,autumn
+133,Reykjavik,Vietnam,mountain,2801.14,0.733,cold,spring
+134,Kruger Park,Morocco,city,2591.17,0.939,mediterranean,summer
+135,Bermuda,Portugal,mountain,1107.92,0.895,tropical,spring
+136,Sardinia,Croatia,historical,4564.75,0.96,arid,spring
+137,Rotorua,Japan,mountain,3644.77,0.612,tropical,summer
+138,Sydney,Croatia,mountain,1861.34,0.402,mediterranean,winter
+139,Bhutan,Thailand,desert,4720.38,0.981,arid,winter
+140,Prague,Spain,island,3264.51,0.272,temperate,summer
+141,Galápagos Islands,Switzerland,island,4162.34,0.111,arid,winter
+142,Churchill,Italy,mountain,1943.3,0.661,arid,spring
+143,Luxembourg,Morocco,desert,1166.29,0.491,arid,winter
+144,Venice,Greece,beach,791.22,0.444,tropical,autumn
+145,Cappadocia,New Zealand,city,2227.81,0.54,mediterranean,autumn
+146,Kotor,Vietnam,mountain,1471.75,0.723,cold,autumn
+147,Lake Garda,Portugal,mountain,2503.43,0.309,temperate,autumn
+148,Fez,Thailand,desert,986.5,0.849,arid,spring
+149,Komodo Island,Mexico,city,630.1,0.617,temperate,autumn
+150,Tel Aviv,Turkey,historical,570.19,0.687,temperate,summer
+151,Rio de Janeiro,India,desert,3894.39,0.845,arid,autumn
+152,Machu Picchu,Croatia,mountain,2212.08,0.406,tropical,spring
+153,Amazon Rainforest,Switzerland,beach,994.18,0.346,mediterranean,winter
+154,Basque Country,Croatia,nature,1634.04,0.763,mediterranean,autumn
+155,New Caledonia,Portugal,historical,2097.29,0.778,temperate,autumn
+156,Xi'an,Italy,nature,4985.6,0.2,tropical,summer
+157,Tunis,Turkey,island,1323.21,0.539,arid,autumn
+158,Vanuatu,Switzerland,city,2812.19,0.259,temperate,summer
+159,Tokyo,Croatia,historical,2140.1,0.802,mediterranean,spring
+160,Lapland,Japan,island,1533.86,0.656,mediterranean,spring
+161,Sahara Oasis,Vietnam,city,4449.94,0.852,temperate,autumn
+162,Montevideo,Turkey,city,1066.11,0.898,tropical,summer
+163,Nikko,India,historical,1013.28,0.154,cold,summer
+164,Doha,Japan,mountain,2744.55,0.399,mediterranean,autumn
+165,Havana Nights,Vietnam,nature,3986.63,0.259,arid,spring
+166,Petra,Switzerland,beach,4561.84,0.7,mediterranean,winter
+167,Uluru,Croatia,nature,1588.77,0.544,arid,summer
+168,Zanzibar,India,beach,4160.44,0.803,mediterranean,autumn
+169,Wadi Rum,France,historical,1311.75,0.96,mediterranean,autumn
+170,Iguazu Falls,Spain,nature,3331.54,0.122,cold,spring
+171,Varanasi,France,desert,1438.57,0.38,tropical,autumn
+172,Mount Fuji,Vietnam,city,4952.26,0.665,tropical,winter
+173,Fiji Islands,Italy,city,3443.4,0.778,temperate,winter
+174,Turks and Caicos,Mexico,beach,1480.53,0.559,mediterranean,autumn
+175,Cairo,New Zealand,historical,4811.19,0.353,mediterranean,autumn
+176,Monaco,Japan,island,2732.49,0.882,tropical,winter
+177,Guilin,Vietnam,mountain,2213.5,0.846,tropical,spring
+178,Swiss Alps,Croatia,nature,4842.37,0.279,mediterranean,winter
+179,Phuket,Japan,beach,4024.34,0.462,arid,spring
+180,Hampi,Japan,island,2917.07,0.167,cold,winter
+181,Seychelles,Portugal,historical,1685.41,0.855,mediterranean,autumn
+182,Perth,Australia,mountain,652.11,0.129,mediterranean,spring
+183,Aruba,Greece,nature,4267.94,0.675,cold,winter
+184,Abel Tasman,Turkey,beach,1172.69,0.682,temperate,spring
+185,Havana,Thailand,city,3213.65,0.138,temperate,winter
+186,Ibiza,India,desert,4985.46,0.838,mediterranean,autumn
+187,Kilimanjaro,Greece,desert,4667.69,0.781,temperate,spring
+188,Luxor,New Zealand,island,2091.79,0.383,mediterranean,spring
+189,Taj Mahal,Japan,island,2051.6,0.673,temperate,spring
+190,Faroe Islands,Morocco,nature,4603.85,0.929,tropical,winter
+191,Loire Valley,Vietnam,nature,1343.53,0.317,temperate,winter
+192,Kathmandu,Australia,city,3063.11,0.641,cold,autumn
+193,Cinque Terre,Mexico,mountain,1982.96,0.842,arid,spring
+194,Cusco,India,beach,3238.56,0.799,tropical,autumn
+195,Ladakh,Mexico,island,1583.31,0.172,arid,winter
+196,Maldives,Morocco,mountain,3849.96,0.368,cold,summer
+197,Bora Bora,Spain,mountain,1027.42,0.882,tropical,spring
+198,Okinawa,Thailand,desert,547.4,0.385,temperate,spring
+199,Niagara Falls,Italy,beach,902.22,0.479,temperate,summer
