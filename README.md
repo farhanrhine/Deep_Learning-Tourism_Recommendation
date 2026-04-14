@@ -49,6 +49,13 @@ Design a personalized tourism recommendation system using deep learning that:
 | Visualization | Matplotlib, Seaborn |
 | Package Manager | uv |
 
+## ✅ Prerequisites
+
+- Python 3.12.x
+- uv package manager
+- Windows users: Microsoft Visual C++ Redistributable (x64)
+	- Download: https://aka.ms/vs/17/release/vc_redist.x64.exe
+
 ## 📁 Project Structure
 
 ```
@@ -81,17 +88,23 @@ Tourism-Recommendation/
 
 ## 🚀 Quick Start
 
-### 1. Install Dependencies
+### 1. Set Python Version (Recommended)
+```bash
+uv python pin 3.12
+uv venv --python 3.12 --clear
+```
+
+### 2. Install Dependencies
 ```bash
 uv sync
 ```
 
-### 2. Generate Dataset
+### 3. Generate Dataset
 ```bash
 uv run python main.py generate-data
 ```
 
-### 3. Train Models
+### 4. Train Models
 ```bash
 # Full training (50 epochs)
 uv run python main.py train
@@ -100,12 +113,31 @@ uv run python main.py train
 uv run python main.py train --epochs 10
 ```
 
-### 4. Evaluate Models
+### 5. Evaluate Models
 ```bash
 uv run python main.py evaluate
 ```
 
-### 5. Launch Web App
+### 6. Launch Web App
+```bash
+uv run python main.py run-app
+```
+
+## 🪟 Windows Troubleshooting
+
+If Streamlit starts but crashes with a torch import error like WinError 126 and cannot load c10.dll:
+
+1. Install Microsoft Visual C++ Redistributable (x64):
+	https://aka.ms/vs/17/release/vc_redist.x64.exe
+2. Restart terminal or VS Code.
+3. Recheck torch:
+
+```bash
+uv run python -c "import torch; print(torch.__version__)"
+```
+
+4. Run app again:
+
 ```bash
 uv run python main.py run-app
 ```
