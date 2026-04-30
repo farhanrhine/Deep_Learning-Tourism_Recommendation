@@ -120,7 +120,7 @@ uv run python main.py evaluate
 
 ### 6. Launch Web App
 ```bash
-uv run python main.py run-app
+uv run main.py run-app
 ```
 
 ## 🪟 Windows Troubleshooting
